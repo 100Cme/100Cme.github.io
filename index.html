@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="css/100c.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>100C - Let It Burn...</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/favicon.png" alt="">
+    </div>
+    <p class="title">100C.me</p>
+    <p class="subtitle">Let It Burn, Let It Burn.....</p>
+    <div class="nav">
+      <a href="#tokenomics" class="btn">Tokenomics</a>
+      <a href="#tools" class="btn">Tools</a>
+      <a href="#" class="btn">Status</a>
+    </div>
+  </header>
+  <div id="tokenInfo" class="box">
+    <h3>Token Information</h3>
+    Asset code....: <mark>100C</mark><br>
+    Asset Issuer..: <mark>GAW3....BOIL</mark><br>
+    Total Issued..: <mark>99.993.167.758</mark><br>
+    Team Vision...: <mark>Get & Burn AQUA</mark><br>
+    Issuer Status.: <mark>Locked</mark><br>
+    Authorization.: <mark>None</mark><br>
+  </div>
+  <div id="tokenomics" class="box">
+    <h3>Tokenomics</h3>
+    <mark>100C</mark> is a special purpose token issued by <strong>GAW3...BOIL</strong>, which offers two primary feature and a contingency plan: <br>
+    <ol>
+      <li>
+        <strong>Burn & Buy Back Mechanism</strong><br>
+        100C offers a set of tools that will automatically <mark>burn AQUA</mark> and create a <mark>buy offer</mark>. Every AQUA that we receive from the main sell order will be redistributed as follows: <br>
+        - 2.50% to AQUA issuer/burn address (GBNZ....AQUA) <br>
+        - 2.50% to the opsWallet for operational cost <br>
+        - 95.00% to create new buy order <br>
+        <div class="ilBox">
+          <h3><u>#illustration</u></h3>
+          <span id="nTr"></span><br>
+          <span id="sBr"></span><br>
+          <span id="sOp"></span><br>
+          <span id="sBb"></span><br>
+          <span id="sDn"></span><br><br>
+          <span id="nBo"></span><br>
+          <span id="sBo"></span><br>
+      </div>
+      </li>
+      <li>
+        <strong>Reward Farming (medium term target)</strong><br>
+        After running for a couple of weeks (with maintenance, checking, and improvement), we will create a <mark>voting bribe</mark> in Aquarius Liquidity Voting Tool (pair: 100C/AQUA), to introduce the project to the public while hoping for support to acquire more AQUA from market making reward which then will be burn.....
+      </li>
+      <li>
+        <strong>Contingency Plan</strong> <br>
+        In the spirit of providing security, we provide a buy order at 92.5% of 100C main sell order's price, totaling 100K AQUA (10K AQUA for the first month). This will be a safety net, in case the Bot failed to create new Buy Order.
+      </li>
+    </ol>
+  </div>
+  <div id="tools" class="box">
+    <h3>Tools & Helpers</h3>
+    Some tools will be available for public, including:
+    <ul>
+      <li>
+        Simple Stellar Explorer (internal testing phase)
+      </li>
+      <li>
+        Discord Bot Notification (internal testing phase)
+      </li>
+      <li>
+        AQUA Reward Stream (soon)
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <hr>
+    <span><strong>100C</strong> tokens are issued on Stellar Network. <br> The project is <strong>unaffiliated</strong> with the Aquarius Network or Stellar Development Foundation.</span><br><br>
+    <span>
+      <a href="https://stellar.expert/explorer/public/asset/100C-GAW3KLJ55SYXEWNNM46SG6JNPQTTQNYRGKUTVFHSNDVUXRFMFF5FBOIL" target="_blank" rel="noopener noreferrer">stellar.expert&nearr;</a>
+      <a href="https://github.com/100Cme" target="_blank" rel="noopener noreferrer">Github&nearr;</a>
+    </span>
+  </footer>
+  
+
+
+
+<script>
+setTimeout(nTr,2000);setTimeout(sBr,3000);
+setTimeout(sOp,4000);setTimeout(sBb,5000);
+setTimeout(sDn,7000);setTimeout(nBo,8000);
+setTimeout(sBo,10000);
+
+function nTr() {
+document.getElementById("nTr").innerHTML = "--AAAA sold 100 AQUA for 1000 100C at 0.1 AQUA/100C.";
+}
+function sBr() {
+document.getElementById("sBr").innerHTML = ">sending 2.50 AQUA to burn address";
+}
+function sOp() {
+document.getElementById("sOp").innerHTML = ">sending 2.50 AQUA to opsWallet address";
+}
+function sBb() {
+document.getElementById("sBb").innerHTML = ">sending 95.00 AQUA to Buy Back Wallet address";
+}
+function sDn() {
+document.getElementById("sDn").innerHTML = "--done.";
+}
+function nBo() {
+document.getElementById("nBo").innerHTML = ">creating new Buy Order for 100 AQUA at 0.095 AQUA/100C";
+}
+function sBo() {
+document.getElementById("sBo").innerHTML = "--done.";
+}
+</script>
+</body>
+</html>
