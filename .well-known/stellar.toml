@@ -1,0 +1,20 @@
+# 100C Project <100C.me>
+VERSION="2.2.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME="100C.me"
+ORG_DBA="100C token"
+ORG_URL="https://100C.me"
+ORG_LOGO ="https://100C.me/.well-known/100c.png"
+ORG_DESCRIPTION="Lets Get & Burn Some AQUA."
+
+[[CURRENCIES]]
+code = "100C"
+name = "100C"
+issuer = "GAW3KLJ55SYXEWNNM46SG6JNPQTTQNYRGKUTVFHSNDVUXRFMFF5FBOIL"
+is_asset_anchored = false
+display_decimals = 7
+desc= "100C is a special purpose token which aim to acquire and burn AQUA via various method."
+image= "https://100C.me/.well-known/100c.png"
+conditions= "There will only ever be 99.993.167.758 100C tokens in existence."
